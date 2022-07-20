@@ -1,0 +1,86 @@
+p,
+h2,
+h1 {
+    color: rgb(84, 40, 2);
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.cor {
+    color: rgb(84, 40, 2);
+    font-family: fantasy;
+    font-size: 60px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+h1:hover {
+    color: sandybrown;
+}
+
+.img1 {
+    border: solid 5px black;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.site {
+    color: rgb(84, 40, 2);
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.div {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: sandybrown;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    ;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: sandybrown;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: beige;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#menu ul li a {
+    background-color: rgb(84, 40, 2);
+}
+
+.rodape {
+    background-color: rgb(84, 40, 2);
+}
+
+.fonteRodape {
+    color: peru;
+    font-family: Arial;
+    font-size: 30px;
+}
